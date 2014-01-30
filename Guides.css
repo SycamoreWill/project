@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.titleimage {
+    margin: 0 auto;
+    width: 330px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.home {
+    text-decoration: none;
+    border: 5px solid black;
+    padding: 5px;
+    color: slategrey;
+}
+
+.home:hover {
+    background-color: rgba(0,0,0,0.3);
+    color: #818181;
+    box-shadow: 0px 5px 15px #000;
+}
+
+.tabs {
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+body {
+    background-image: url("http://wall-height.com/wp-content/uploads/2013/08/Free-Download-AstroNautilus-League-of-legends-HD-Wallpaper.jpg");
+    margin: 0px;
+    background-attachment: fixed;
+}
+.content {
+    width: 1200px;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0 auto;
+    height: 1100px;
+    box-shadow: 0px 0px 15px #000;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.guides {
+    font-size:110px;
+    text-align: center;
+}
+
+table {
+    margin: 0;
+}
+
+td {
+    border: 5px solid black;
+    padding: 5px;
+    color: slategrey;
+    font-size: larger;
+}
+
+td:hover {
+    background-color: rgba(0,0,0,0.3);
+}
