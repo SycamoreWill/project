@@ -7,7 +7,7 @@
     <title>Guides</title>
 
     <script>
-       $(window).load(function() {
+       /*$(window).load(function() {
             $("td#champion1").click(function(){
                 $(".champ").addClass("hidden");
                 $("#champion1").removeClass("hidden");
@@ -87,12 +87,52 @@
                 $(".champ").addClass("hidden");
                 $("#champion16").removeClass("hidden");
             });
-        });
+        });*/
     </script>
 
 </head>
-
 <body>
+        <div>
+        <span class="dialog" style="display:none" id="one"><a href="http://www.solomid.net/guide/view/55837-gangplank-build-guide-by-heartbeat"><img src="http://lolheads.com/images/champions/gangplank.png"></a>Gangplank, the Saltwater Scourage, is a very versatile champion, as he can build damage or he can go tank since his base damages are pretty high and has a great ultimate to make up for him going tank.</span>
+        <span class="dialog" style="display:none" id="two"><a href="http://www.solomid.net/guide/view/64132-aatrox-build-guide-by-pants-are-dragon"><img src="http://i.imgur.com/aLPAWGK.png"></a>Aatrox, the Darkin Blade, is one of the deadliest carry junglers out there, his damage output early game is extremely high.</span>
+        <span class="dialog" style="display:none" id="three"><a href="http://www.solomid.net/guide?champ=renekton&featured=0&submitted=0&sort=2"><img src="http://www.mobafire.com/images/champion/icon/renekton.png"></a>Renekton, the Butcher of the Sands, strengths lie in his early game power so it is key that you use this power to your advantage.</span>
+        <span class="dialog" style="display:none" id="four"><a href="http://www.solomid.net/guide/view/64103-shyvana-build-guide-fighter-by-jyarbz"><img src="http://www.championselect.net/images/CS_Champ_Icons/102_Web_0.jpg"></a>Shyvana, the Half-Dragon, is a great duelist and initiator that can push lanes and clear jungle fast allowing her to control objectives very well.</span>
+        <span class="dialog" style="display:none" id="five"><a href="http://www.solomid.net/guide/view/10768-fiddlesticks-build-guide-by-piece-of-sheet"><img src="http://www.gamereplays.org/community/uploads/post-96192-1265511212.png"></a>Fiddlesticks, the Harbinger of Doom, is a squishy AoE/assassin type champion with good disables.</span>
+        <span class="dialog" style="display:none" id="six"><a href="http://www.solomid.net/guide/view/43750-garen-build-guide-fighter-by-marinerevenge"><img src="http://www.championselect.net/images/CS_Champ_Icons/86_Web_0.jpg"></a>Garen, the Might of Democia, has a crushing power curve if he gets ahead even a little. He's super hard to kill while being a great AoE team fighter.</span>
+        <span class="dialog" style="display:none" id="seven"><a href="http://www.solomid.net/guide/view/28448-lulu-build-guide-fighter-by-pablothetwig"><img src="http://www.championselect.net/images/CS_Champ_Icons/117_Web_0.jpg"></a>Lulu, the Fae Soreress, is an adorable yordle champion, and is generally considered to be a support.</span>        
+        <span class="dialog" style="display:none" id="eight"><a href="http://www.solomid.net/guide/view/122402-teemo-build-guide-by-pikachuyoloswag1"><img src="http://lolheads.com/images/champions/teemo.png"></a>Don't</span>
+        <span class="dialog" style="display:none" id="nine"><a href="http://www.solomid.net/guide/view/44194-darius-build-guide-jungle-fighter-by-callme3603919917"><img src="http://www.mobafire.com/images/champion/icon/darius.png"></a>Darius, the Hand of Noxus, is terribly annoying and hated. He's a tool.</span>
+        <span class="dialog" style="display:none" id="ten"><a href="http://www.solomid.net/guide/view/19669-singed-build-guide-by-invertedcomposer"><img src="http://www.mobafire.com/images/champion/icon/singed.png"></a>Singed, the Mad Chemist, is a tank/intiator that revels in kiting and chasing.</span>        
+    </div>
+    
+    <script>
+    function swap(one, two, three, four, five, six, seven, eight, nine, ten) {
+    document.getElementById(one).style.display = 'block';
+    document.getElementById(two).style.display = 'none';
+    document.getElementById(three).style.display = 'none';
+    document.getElementById(four).style.display = 'none';
+    document.getElementById(five).style.display = 'none';
+    document.getElementById(six).style.display = 'none';
+    document.getElementById(seven).style.display = 'none';
+    document.getElementById(eight).style.display = 'none';
+    document.getElementById(nine).style.display = 'none';
+    document.getElementById(ten).style.display = 'none';
+}
+</script>
+    
+    <button onClick="swap('one','two', 'three', 'four', 'five', 'six', 'seven','eight','nine','ten')"><img src="http://lolheads.com/images/champions/gangplank.png"></button>
+    <button onClick="swap('two','three','one','four','five','six','seven','eight','nine','ten')"><img src="http://i.imgur.com/aLPAWGK.png"></button>
+    <button onClick="swap('three','four','one','two','five','six','seven','eight','nine','ten')"><img src="http://img3.wikia.nocookie.net/__cb20120617125907/leagueoflegends/images/f/fc/RenektonSquare.png"></button>
+    <button onClick="swap('four','five','one','two','three','six', 'seven','eight','nine','ten')"><img src="http://www.championselect.net/images/CS_Champ_Icons/102_Web_0.jpg"></button>
+    <button onClick="swap('five','six','one','two','three','four','seven','eight','nine','ten')"><img src="http://www.gamereplays.org/community/uploads/post-96192-1265511212.png"></button>
+    <button onClick="swap('six','seven','one','two','three','four','five','eight','nine','ten')"><img src="http://www.championselect.net/images/CS_Champ_Icons/86_Web_0.jpg"></button>
+    <button onClick="swap('seven','eight','one','two','three','four','five','six','nine','ten')"><img src="http://www.championselect.net/images/CS_Champ_Icons/117_Web_0.jpg"></button>
+    <button onClick="swap('eight','nine','one','two','three','four','five','six','seven','ten')"><img src="http://lolheads.com/images/champions/teemo.png"></button>
+    <button onClick="swap('nine','ten','one','two','three','four','five','six','seven','eight')"><img src="http://img3.wikia.nocookie.net/__cb20120519073336/leagueoflegends/images/5/54/DariusSquare.png"></button>
+    <button onClick="swap('ten','one','two','three','four','five','six','seven','eight','nine')"><img src="http://lolheads.com/images/champions/singed.png"></button>    
+
+</body>
+<!--<body>
     <div class="content">
         <div class="titleimage"><img src="img/title.png"/></div>
         <p class="tabs"><a class="home" href="file:///C:/Users/Will/Desktop/Code/LocalFiles/index.html">Home</a>
@@ -202,5 +242,5 @@
                 <td id="champion16"><a href="#"><img src="http://ggchronicle.com/wp-content/uploads/2011/11/Jax_Square.png"></a></td>
             </tr>
         </div>
-</body>
+</body>-->
 </html>
