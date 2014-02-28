@@ -7,7 +7,19 @@
     <title>Guides</title>
 
     <script>
-       $(window).load(function() {
+      function swap(one, two, three, four, five, six, seven, eight, nine, ten) {
+	document.getElementById(one).style.display = 'block';
+	document.getElementById(two).style.display = 'none';
+    	document.getElementById(three).style.display = 'none';
+    	document.getElementById(four).style.display = 'none';
+	document.getElementById(five).style.display = 'none';
+	document.getElementById(six).style.display = 'none';
+	document.getElementById(seven).style.display = 'none';
+    	document.getElementById(eight).style.display = 'none';
+    	document.getElementById(nine).style.display = 'none';
+    	document.getElementById(ten).style.display = 'none';
+}
+       /*$(window).load(function() {
             $("td#champion1").click(function(){
                 $(".champ").addClass("hidden");
                 $("#champion1").removeClass("hidden");
@@ -87,13 +99,41 @@
                 $(".champ").addClass("hidden");
                 $("#champion16").removeClass("hidden");
             });
-        });
+        });*/
     </script>
 
 </head>
 
 <body>
-    <div class="content">
+    <table style="width: 100%;">
+        
+    <div style="border: solid 5px black;">
+        <span class="dialog" style="display:none; font-size: large; color: slategray; padding: 5px; text-align: center;" id="one"><a href="http://www.solomid.net/guide/view/55837-gangplank-build-guide-by-heartbeat"><div><img src="http://lolheads.com/images/champions/gangplank.png"></div></a>Gangplank, the Saltwater Scourage, is a very versatile champion, as he can build damage or he can go tank.</span>
+        <span class="dialog" style="display:none; font-size: large; color: slategray; padding: 5px; text-align: center;" id="two"><a href="http://www.solomid.net/guide/view/64132-aatrox-build-guide-by-pants-are-dragon"><div><img src="http://i.imgur.com/aLPAWGK.png"></div></a>Aatrox, the Darkin Blade, is one of the deadliest carry junglers out there, his damage output early game is extremely high.</span>
+        <span class="dialog" style="display:none; font-size: large; color: slategray; padding: 5px; text-align: center;" id="three"><a href="http://www.solomid.net/guide?champ=renekton&featured=0&submitted=0&sort=2"><div><img src="http://www.mobafire.com/images/champion/icon/renekton.png"></div></a>Renekton, the Butcher of the Sands, strengths lie in his early game power so it is key that you use this power to your advantage.</span>
+        <span class="dialog" style="display:none; font-size: large; color: slategray; padding: 5px; text-align: center;" id="four"><a href="http://www.solomid.net/guide/view/64103-shyvana-build-guide-fighter-by-jyarbz"><div><img src="http://www.championselect.net/images/CS_Champ_Icons/102_Web_0.jpg"></div></a>Shyvana, the Half-Dragon, is a great duelist and initiator that can push lanes and clear jungle fast allowing her to control objectives very well.</span>
+        <span class="dialog" style="display:none; font-size: large; color: slategray; padding: 5px; text-align: center;" id="five"><a href="http://www.solomid.net/guide/view/10768-fiddlesticks-build-guide-by-piece-of-sheet"><div><img src="http://www.gamereplays.org/community/uploads/post-96192-1265511212.png"></div></a>Fiddlesticks, the Harbinger of Doom, is a squishy AoE/assassin type champion with good disables.</span>
+        <span class="dialog" style="display:none; font-size: large; color: slategray; padding: 5px; text-align: center;" id="six"><a href="http://www.solomid.net/guide/view/43750-garen-build-guide-fighter-by-marinerevenge"><div><img src="http://www.championselect.net/images/CS_Champ_Icons/86_Web_0.jpg"></div></a>Garen, the Might of Democia, has a crushing power curve if he gets ahead even a little. He's super hard to kill while being a great AoE team fighter.</span>
+        <span class="dialog" style="display:none; font-size: large; color: slategray; padding: 5px; text-align: center;" id="seven"><a href="http://www.solomid.net/guide/view/28448-lulu-build-guide-fighter-by-pablothetwig"><div><img src="http://www.championselect.net/images/CS_Champ_Icons/117_Web_0.jpg"></div></a>Lulu, the Fae Soreress, is an adorable yordle champion, and is generally considered to be a support.</span>        
+        <span class="dialog" style="display:none; font-size: large; color: slategray; padding: 5px; text-align: center;" id="eight"><a href="http://www.solomid.net/guide/view/122402-teemo-build-guide-by-pikachuyoloswag1"><div><img src="http://lolheads.com/images/champions/teemo.png"></div></a>Don't</span>
+        <span class="dialog" style="display:none; font-size: large; color: slategray; padding: 5px; text-align: center;" id="nine"><a href="http://www.solomid.net/guide/view/44194-darius-build-guide-jungle-fighter-by-callme3603919917"><div><img src="http://www.mobafire.com/images/champion/icon/darius.png"></div></a>Darius, the Hand of Noxus, is terribly annoying and hated. He's a tool.</span>
+        <span class="dialog" style="display:none; font-size: large; color: slategray; padding: 5px; text-align: center;" id="ten"><a href="http://www.solomid.net/guide/view/19669-singed-build-guide-by-invertedcomposer"><div><img src="http://www.mobafire.com/images/champion/icon/singed.png"></div></a>Singed, the Mad Chemist, is a tank/intiator that revels in kiting and chasing.</span>
+   </div>
+        
+        
+        
+    <button style= "border: solid 5px black;" onClick="swap('one','two', 'three', 'four', 'five', 'six', 'seven','eight','nine','ten')"><img src="http://lolheads.com/images/champions/gangplank.png"></button>
+    <button style= "border: solid 5px black;" onClick="swap('two','three','one','four','five','six','seven','eight','nine','ten')"><img src="http://i.imgur.com/aLPAWGK.png"></button>
+    <button style= "border: solid 5px black;" onClick="swap('three','four','one','two','five','six','seven','eight','nine','ten')"><img src="http://img3.wikia.nocookie.net/__cb20120617125907/leagueoflegends/images/f/fc/RenektonSquare.png"></button>
+    <button style= "border: solid 5px black;" onClick="swap('four','five','one','two','three','six', 'seven','eight','nine','ten')"><img src="http://www.championselect.net/images/CS_Champ_Icons/102_Web_0.jpg"></button>
+    <button style= "border: solid 5px black;" onClick="swap('five','six','one','two','three','four','seven','eight','nine','ten')"><img src="http://www.gamereplays.org/community/uploads/post-96192-1265511212.png"></button>
+    <button style= "border: solid 5px black;" onClick="swap('six','seven','one','two','three','four','five','eight','nine','ten')"><img src="http://www.championselect.net/images/CS_Champ_Icons/86_Web_0.jpg"></button>
+    <button style= "border: solid 5px black;" onClick="swap('seven','eight','one','two','three','four','five','six','nine','ten')"><img src="http://www.championselect.net/images/CS_Champ_Icons/117_Web_0.jpg"></button>
+    <button style= "border: solid 5px black;" onClick="swap('eight','nine','one','two','three','four','five','six','seven','ten')"><img src="http://lolheads.com/images/champions/teemo.png"></button>
+    <button style= "border: solid 5px black;" onClick="swap('nine','ten','one','two','three','four','five','six','seven','eight')"><img src="http://img3.wikia.nocookie.net/__cb20120519073336/leagueoflegends/images/5/54/DariusSquare.png"></button>
+    <button style= "border: solid 5px black;" onClick="swap('ten','one','two','three','four','five','six','seven','eight','nine')"><img src="http://lolheads.com/images/champions/singed.png"></button>    
+
+    <!--<div class="content">
         <div class="titleimage"><img src="http://i.imgur.com/YnP8NZX.png"/></div>
         <p class="tabs"><a class="home" href="http://sycamorewill.github.io/project/">Home</a>
 		&nbsp; <a class="home" href="http://sycamorewill.github.io/project/video.html">Videos</a>
@@ -201,6 +241,6 @@
                 <td id="champion15"><a href="#"><img src="http://static3.wikia.nocookie.net/__cb20131003034444/leagueoflegends/images/e/e2/JinxSquare.png"></a></td>
                 <td id="champion16"><a href="#"><img src="http://ggchronicle.com/wp-content/uploads/2011/11/Jax_Square.png"></a></td>
             </tr>
-        </div>
+        </div>-->
 </body>
 </html>
