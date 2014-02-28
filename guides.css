@@ -28,7 +28,7 @@ html, body {
 
 .tabs {
     font-size: 35px;
-    text-align: center;
+    text-align: block;
     letter-spacing: 10px;
 }
 
