@@ -6,20 +6,8 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <title>Guides</title>
 <!-- I totes did it the long way. -->
-    <script>
-      function swap(one, two, three, four, five, six, seven, eight, nine, ten) {
-	document.getElementById(one).style.display = 'block';
-	document.getElementById(two).style.display = 'none';
-    	document.getElementById(three).style.display = 'none';
-    	document.getElementById(four).style.display = 'none';
-	document.getElementById(five).style.display = 'none';
-	document.getElementById(six).style.display = 'none';
-	document.getElementById(seven).style.display = 'none';
-    	document.getElementById(eight).style.display = 'none';
-    	document.getElementById(nine).style.display = 'none';
-    	document.getElementById(ten).style.display = 'none';
-}
-       /*$(window).load(function() {
+<!--<script>
+       $(window).load(function() {
             $("td#champion1").click(function(){
                 $(".champ").addClass("hidden");
                 $("#champion1").removeClass("hidden");
@@ -100,7 +88,7 @@
                 $("#champion16").removeClass("hidden");
             });
         });*/
-    </script>
+    </script>-->
 
 </head>
 
@@ -133,6 +121,22 @@
     <button style= "border: solid 5px black;" onClick="swap('nine','ten','one','two','three','four','five','six','seven','eight')"><img src="http://img3.wikia.nocookie.net/__cb20120519073336/leagueoflegends/images/5/54/DariusSquare.png"></button>
     <button style= "border: solid 5px black;" onClick="swap('ten','one','two','three','four','five','six','seven','eight','nine')"><img src="http://lolheads.com/images/champions/singed.png"></button>    
 
+<script>
+	  
+      function swap(one, two, three, four, five, six, seven, eight, nine, ten) {
+	document.getElementById(one).style.display = 'block';
+	document.getElementById(two).style.display = 'none';
+    	document.getElementById(three).style.display = 'none';
+    	document.getElementById(four).style.display = 'none';
+	document.getElementById(five).style.display = 'none';
+	document.getElementById(six).style.display = 'none';
+	document.getElementById(seven).style.display = 'none';
+    	document.getElementById(eight).style.display = 'none';
+    	document.getElementById(nine).style.display = 'none';
+    	document.getElementById(ten).style.display = 'none';
+}
+	
+</script>
     <!--<div class="content">
         <div class="titleimage"><img src="http://i.imgur.com/YnP8NZX.png"/></div>
         <p class="tabs"><a class="home" href="http://sycamorewill.github.io/project/">Home</a>
