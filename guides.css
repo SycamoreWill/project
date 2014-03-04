@@ -30,6 +30,7 @@ html, body {
     font-size: 35px;
     text-align: center;
     letter-spacing: 10px;
+    align
     
 }
 
@@ -37,6 +38,10 @@ html, body {
     font-size: 35px;
     text-align: center;
     letter-spacing: 10px;
+}
+
+.icons {
+    display: block;
 }
 
 body {
