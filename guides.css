@@ -30,6 +30,13 @@ html, body {
     font-size: 35px;
     text-align: center;
     letter-spacing: 10px;
+    
+}
+
+.dialog {
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 10px;
 }
 
 body {
