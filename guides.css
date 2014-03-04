@@ -33,7 +33,7 @@ html, body {
 }
 
 .icons{
-    display:block;
+    display: inline-block;
 }
 
 body {
