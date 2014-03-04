@@ -33,7 +33,7 @@ html, body {
 }
 
 .icons{
-    display: table;
+    display: line;
 }
 
 body {
