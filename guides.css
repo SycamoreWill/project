@@ -32,6 +32,10 @@ html, body {
     letter-spacing: 10px;
 }
 
+.icons{
+    display:block;
+}
+
 body {
     background-image: url("http://wall-height.com/wp-content/uploads/2013/08/Free-Download-AstroNautilus-League-of-legends-HD-Wallpaper.jpg");
     margin: 0px;
